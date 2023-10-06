@@ -1,0 +1,8 @@
+{
+    "label": "🈯 Third Party 🈯",
+    "position": 99,
+    "link": {
+      "type": "generated-index",
+      "description": "Documentation made for any 3rd party tools or assets. Things in this category are NOT my projects just needed documentation."
+    }
+}

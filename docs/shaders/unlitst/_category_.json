@@ -1,0 +1,9 @@
+{
+    "label": "BS Unlit Standard",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Documentation on the my simple unlit standard shader replacement for BeatSaber. Also known as \"A7 Unlit Standard.\""
+    }
+}
+  
