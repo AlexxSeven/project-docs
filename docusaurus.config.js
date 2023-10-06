@@ -56,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/AlexxSeven/project-docs',
+            'https://github.com/AlexxSeven/project-docs/tree/main/',
             showLastUpdateTime: true,
         },
         blog: {
@@ -86,7 +86,7 @@ const config = {
 
         options: {
           margin: 24,
-          background: '',
+          background: '#121212',
           scrollOffset: 150,
         }
       },
