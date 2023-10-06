@@ -2,8 +2,8 @@
     "label": "Melodi (Unlit & Premium)",
     "position": 1,
     "link": {
+      "slug": "/category/shaders/melodi",
       "type": "generated-index",
       "description": "Documentation on the Melodi shader for BeatSaber with AudioLink support."
     }
 }
-  

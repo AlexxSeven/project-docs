@@ -2,6 +2,7 @@
     "label": "😶‍🌫️ Miscellaneous 😶‍🌫️",
     "position": 98,
     "link": {
+      "slug": "/category/miscellaneous",
       "type": "generated-index",
       "description": "Scripts, assets, anything that doesn't have a category but I've released and needs documentation."
     }

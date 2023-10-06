@@ -2,6 +2,7 @@
     "label": "🧝 V-Tuber Assets 🧝",
     "position": 2,
     "link": {
+      "slug": "/category/vtuber-assets",
       "type": "generated-index",
       "description": "V-tuber throwables and props for various programs!"
     }

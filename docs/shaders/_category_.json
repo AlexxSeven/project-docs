@@ -2,6 +2,7 @@
     "label": "🪩 Shaders 🪩",
     "position": 1,
     "link": {
+      "slug": "/category/shaders",
       "type": "generated-index",
       "description": "All the shader projects I've released so far can be found documented here."
     }

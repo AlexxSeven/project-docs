@@ -2,6 +2,7 @@
     "label": "Glass Refraction (Premium)",
     "position": 2,
     "link": {
+      "slug": "/category/shaders/glass-refraction",
       "type": "generated-index",
       "description": "Documentation on my \"Glass Refraction\" shader for BeatSaber."
     }
