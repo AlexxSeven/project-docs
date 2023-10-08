@@ -41,16 +41,16 @@ const config = {
       {
         redirects: [
           {
-            from: '/melodi-change-latest',
-            to: '/melodi-change-v1-2-0',
+            from: '/blog/melodi-change-latest',
+            to: '/blog/melodi-change-v1-2-0',
           },
           {
-            from: '/glassref-change-latest',
-            to: '/glassref-change-v1-1',
+            from: '/blog/glassref-change-latest',
+            to: '/blog/glassref-change-v1-1',
           },
           {
-            from: '/unlitst-change-latest',
-            to: '/unlitst-change-v1-1',
+            from: '/blog/unlitst-change-latest',
+            to: '/blog/unlitst-change-v1-1',
           },
         ],
       },
