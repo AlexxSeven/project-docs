@@ -41,22 +41,22 @@ const config = {
       {
         fromExtensions: ['html', 'htm'],
         createRedirects(existingPath) {
-          if (existingPath.includes('/melodi-change-latest')) {
+          if (existingPath.includes('/blog/melodi-change-latest')) {
             // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
             return [
-              existingPath.replace('/melodi-change-latest', '/melodi-change-v1-2-0'),
+              existingPath.replace('/blog/melodi-change-latest', '/blog/melodi-change-v1-2-0'),
             ];
           }
-          else if (existingPath.includes('/glassref-change-latest')) {
+          else if (existingPath.includes('/blog/glassref-change-latest')) {
             // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
             return [
-              existingPath.replace('/glassref-change-latest', '/glassref-change-v1-1'),
+              existingPath.replace('/blog/glassref-change-latest', '/blog/glassref-change-v1-1'),
             ];
           }
-          else if (existingPath.includes('/unlitst-change-latest')) {
+          else if (existingPath.includes('/blog/unlitst-change-latest')) {
             // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
             return [
-              existingPath.replace('/unlitst-change-v1-1', '/unlitst-change-v1-1'),
+              existingPath.replace('/blog/unlitst-change-v1-1', '/blog/unlitst-change-v1-1'),
             ];
           }
           return undefined; // Return a falsy value: no redirect created
