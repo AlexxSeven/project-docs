@@ -85,9 +85,9 @@ const config = {
         selector: '.markdown img',
 
         options: {
-          margin: 24,
-          background: '#121212',
-          scrollOffset: 150,
+          margin: 65,
+          scrollOffset: '150',
+          background: 'rgba(25, 18, 25, .5)',
         }
       },
       tableOfContents: {

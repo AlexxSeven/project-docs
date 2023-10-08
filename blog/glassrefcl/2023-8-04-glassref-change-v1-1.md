@@ -2,7 +2,7 @@
 slug: glassref-change-latest
 title: Glass Refraction Changelog (v1.1)
 authors: alexxseven
-tags: [Shaders, Melodi, Changelogs]
+tags: [Shaders, Glass Refraction, Changelogs]
 ---
 
 :::note 
