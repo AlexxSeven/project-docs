@@ -36,7 +36,9 @@ The changes in this section will affect the look of materials using previous ver
 - Added a gamma correction toggle to all color palette selectors.
 - (⭐) Fixed tangent calculation in physically lit mode for object rotations (fixes funky normals.)
 - (⭐) Adjusted the math around specular to fix high parameter numbers causing the effect to spill past a set specular map and other specularity visual issues.
-- (⭐) Completely reworked the lit mode custom lighting model and switched to a vertex lighting pass.
+- (⭐) Completely reworked the lit mode custom lighting model to fix lighting calculation.
+- (⭐) Fixed issues with vertex lighting (point/spot lights) and vertex/object animation.
+- (⭐) Added a toggle for vertex lighting support under `Shader Options` when lit mode is set to `Physical`.
 - (⭐) Added shading color settings to the simulated lighting menu.
 - (⭐) Changed manual light position to a float3 from a set of 3 ranged (-1, 1) floats.
 - (⭐) Added a position type enum to manual light direction mode to swap from local and world pos.
@@ -59,6 +61,7 @@ The changes in this section will affect the look of materials using previous ver
 - Support for BloomFogEnvironment added, options can be found under the `BeatSaber Options` Menu! (uses code from [/github/kaitlyndotmoe](https://github.com/kaitlyndotmoe/BeatSaberShaderTools)).
 - Added Thry version checks and warnings for extremely outdated and/or missing installs.
 - Added Axis settings to the `AudioLink > Object Rotation` menu.
+- Added `Light ID #` options to `BeatSaber Settings > Custom Colors Override` to pull from the global light IDs like platform light objects.
 - (⭐) Added a `Scene Light Illumination` under the `custom` mode of light color options.
 - (⭐) Added `Scene Light Direction` under the light direction option.
 - (⭐) Added warning for Scene lighting and Scene Light Dir options to clarify they require a mod that creates scene lights.

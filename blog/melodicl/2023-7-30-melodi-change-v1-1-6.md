@@ -14,7 +14,7 @@ tags: [Shaders, Melodi, Changelogs]
 
 :::danger Bug Warning!
 
-There is currently a bug with opacity the causes the shader to default as transparent! The current workaround is to set your alpha type to opaque even if it already says its set.
+There is currently a bug with opacity the causes the shader to default as transparent cutout! The current workaround is to set your alpha type to opaque even if it already says its set.
 
 :::
 
