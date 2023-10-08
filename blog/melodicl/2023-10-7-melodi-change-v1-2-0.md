@@ -53,6 +53,7 @@ The changes in this section will affect the look of materials using previous ver
 - Renamed all instances of `Rotation Mode` to `Motion Mode` where the effect was motion/panning rather than rotation.
 - Fixed a bug where `_Color` was set as a property multiple times in the shader.
 - Reworked the look of the `AudioLink > Object Rotation` menu.
+- Reworked the look of a few UI elements due to changes in recent thry editor versions.
 - (⭐) Renamed the `Blend Env Lights` option to `Blend Directional Lights` to clarify what it does.
 
 ## Additions:
