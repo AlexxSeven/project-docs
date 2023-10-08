@@ -34,35 +34,7 @@ const config = {
   },
 
   plugins: [
-    'plugin-image-zoom',
-
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html', 'htm'],
-        createRedirects(existingPath) {
-          if (existingPath.includes('/blog/melodi-change-latest')) {
-            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
-            return [
-              existingPath.replace('/blog/melodi-change-latest', '/blog/melodi-change-v1-2-0'),
-            ];
-          }
-          else if (existingPath.includes('/blog/glassref-change-latest')) {
-            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
-            return [
-              existingPath.replace('/blog/glassref-change-latest', '/blog/glassref-change-v1-1'),
-            ];
-          }
-          else if (existingPath.includes('/blog/unlitst-change-latest')) {
-            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
-            return [
-              existingPath.replace('/blog/unlitst-change-v1-1', '/blog/unlitst-change-v1-1'),
-            ];
-          }
-          return undefined; // Return a falsy value: no redirect created
-        },
-      },
-    ],
+    'plugin-image-zoom'
   ],
 
   scripts: [

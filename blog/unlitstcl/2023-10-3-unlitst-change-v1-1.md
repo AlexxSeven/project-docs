@@ -1,5 +1,5 @@
 ---
-slug: unlitst-change-v1-1
+slug: unlitst-change-latest
 title: BS Unlit Standard Changelog (v1.1)
 authors: alexxseven
 tags: [Shaders, UnlitStandard, Changelogs]
