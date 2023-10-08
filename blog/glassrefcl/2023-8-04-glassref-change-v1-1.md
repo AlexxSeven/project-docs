@@ -1,5 +1,5 @@
 ---
-slug: glassref-change-latest
+slug: glassref-change-v1-1
 title: Glass Refraction Changelog (v1.1)
 authors: alexxseven
 tags: [Shaders, Glass Refraction, Changelogs]
