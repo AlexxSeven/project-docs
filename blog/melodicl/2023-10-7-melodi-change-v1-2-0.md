@@ -4,6 +4,7 @@ title: Melodi Unlit & Premium Changelog (v1.2.0)
 authors: alexxseven
 tags: [Shaders, Melodi, Changelogs]
 ---
+import ReactPlayer from 'react-player/file'
 
 :::note Legend
 
@@ -73,3 +74,20 @@ The changes in this section will affect the look of materials using previous ver
 
 ## Extra:
 - Updated the packaged thry editor version to `2.45.1` as the shader now utilizes features from it.
+
+## (⭐) Preview:
+
+<div className='player-wrapper'>
+    <ReactPlayer
+        className='react-player'
+        playing
+        loop
+        playsinline
+        controls
+        volume='1'
+        muted
+        url='https://share.alexxseven.com/d0bd9fccab5b.mp4'
+        height='100%'
+        width='100%'
+    />
+</div>
