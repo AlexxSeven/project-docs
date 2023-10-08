@@ -34,7 +34,27 @@ const config = {
   },
 
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/melodi-change-latest',
+            to: '/melodi-change-v1-2-0',
+          },
+          {
+            from: '/glassref-change-latest',
+            to: '/glassref-change-v1-1',
+          },
+          {
+            from: '/unlitst-change-latest',
+            to: '/unlitst-change-v1-1',
+          },
+        ],
+      },
+    ],
   ],
 
   scripts: [
