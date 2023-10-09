@@ -1,14 +1,11 @@
 ---
 sidebar_position: 0
-title: 📄 Simple Mic Source
+title: 📜 Simple Mic Source
 ---
 
 # A7 Simple Mic Source
-
-:::note
-
-The `A7 Simple Mic Source` script is currently only distributed as part of `Melodi Premium`.
-
+:::tip
+[Download the script here.](https://github.com/AlexxSeven/Utility-Unity-Scripts/tree/main/Simple%20Mic%20Source)
 :::
 
 Simple mic source is a script that does exactly what it says in the name, a simple script to attach an audio input, or mic, to an audio source.
@@ -30,10 +27,16 @@ Below we'll discuss how to configure the component.
 
 
 ## Configuration options:
-### Audio Clip:
+<div style={{textAlign: 'center'}}>
+
+![A view of the component and its options.](/img/misc/simplemic/componentview.png)
+
+</div>
+
+### Audio clip:
 The audio clip here is optional. This setting tells unity to play the selected audio clip in the event it fails to hook into the selected microphone source.
 
-### Get Device Names:
+### Get device names:
 Checking this box will tell unity to output the device names into the console log whenever play mode is started. This can be used as a way to copy a device name exactly to be pasted in the "selected device" option.
 <div style={{textAlign: 'center'}}>
 
@@ -41,5 +44,5 @@ Checking this box will tell unity to output the device names into the console lo
 
 </div>
 
-### Selected Device:
+### Selected device:
 This text box option tells unity which device to hook into when turning on play mode, it is IMPORTANT that this be typed exactly the same as the device name shows in your system.
