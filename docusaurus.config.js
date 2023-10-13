@@ -37,6 +37,7 @@ const config = {
     'plugin-image-zoom'
   ],
 
+  /*
   scripts: [
     'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js',
     {
@@ -44,6 +45,7 @@ const config = {
       defer: true,
     }
   ],
+  */
 
   presets: [
     [
