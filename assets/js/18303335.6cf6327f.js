@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[8995],{7105:s=>{s.exports=JSON.parse('{"permalink":"/changelogs/tags/unlit-standard","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Project changelogs"}')}}]);
