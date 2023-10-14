@@ -34,7 +34,23 @@ const config = {
   },
 
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html, htm'],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/changelogs')) {
+            // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
+            return [
+              existingPath.replace('/changelogs', '/blog'),
+              existingPath.replace('/changelogs', '/blog'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+      },
+    ],
   ],
 
   /*
