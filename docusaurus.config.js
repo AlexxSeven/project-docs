@@ -55,20 +55,18 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AlexxSeven/project-docs/tree/main/',
             showLastUpdateTime: true,
         },
         blog: {
+          path: 'changelogs',
+          routeBasePath: 'changelogs',
+          blogTitle: 'Project changelogs',
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          /*
-          editUrl:
-            'https://github.com/AlexxSeven/project-docs',
-          */
+          postsPerPage: 5,
+          blogSidebarTitle: 'All Posts:',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -108,7 +106,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Changelogs', position: 'left'},
+          {to: '/changelogs', label: 'Changelogs', position: 'left'},
           {
             href: 'https://github.com/AlexxSeven',
             'aria-label': 'GitHub',

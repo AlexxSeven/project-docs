@@ -1,5 +1,5 @@
 ---
-slug: melodi-change-latest
+slug: melodi-change-v1-20-0
 title: Melodi Unlit & Premium Changelog (v1.2.0)
 authors: alexxseven
 tags: [Shaders, Melodi, Changelogs]
@@ -74,7 +74,7 @@ The changes in this section will affect the look of materials using previous ver
 
 ## Extra:
 - Updated the packaged thry editor version to `2.45.1` as the shader now utilizes features from it.
-
+<!--truncate-->
 ## (⭐) Preview:
 
 <div className='player-wrapper'>

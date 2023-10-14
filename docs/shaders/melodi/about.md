@@ -4,6 +4,6 @@ title: ✨[About Melodi]✨
 displayed_sidebar: melodiSidebar
 ---
 
-## [Latest Changelog.](/blog/melodi-change-latest)
+## [Latest Changelog.](/changelogs/melodi-change-latest)
 
 # 🚧UNDER CONSTRUCTION🚧
