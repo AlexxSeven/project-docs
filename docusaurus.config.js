@@ -44,7 +44,6 @@ const config = {
             // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
             return [
               existingPath.replace('/changelogs', '/blog'),
-              existingPath.replace('/changelogs', '/blog'),
             ];
           }
           return undefined; // Return a falsy value: no redirect created
