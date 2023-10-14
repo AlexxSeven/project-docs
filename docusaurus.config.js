@@ -38,7 +38,7 @@ const config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        fromExtensions: ['html, htm'],
+        fromExtensions: ['html', 'htm'],
         createRedirects(existingPath) {
           if (existingPath.includes('/changelogs')) {
             // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
