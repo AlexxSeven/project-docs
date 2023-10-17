@@ -34,6 +34,9 @@ The changes in this section will affect the look of materials using previous ver
 - (⭐) Renamed `Specular Amount` to `Smoothness` in `Specular Settings`.
 - (⭐) Renamed `Smoothness + Mask` to `Metallic + Mask` in `Specular Settings`.
 
+## Additions:
+- Added stencil buffer options under `Shader Options > Stencil Options`.
+
 ## Removals:
 :::danger NOTICE!
 
