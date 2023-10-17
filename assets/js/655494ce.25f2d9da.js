@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[5976],{845:s=>{s.exports=JSON.parse('{"permalink":"/changelogs/tags/glass-refraction","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Project changelogs"}')}}]);

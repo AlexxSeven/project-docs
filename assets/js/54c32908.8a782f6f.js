@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[2277],{5684:s=>{s.exports=JSON.parse('{"label":"Shaders","permalink":"/changelogs/tags/shaders","allTagsPath":"/changelogs/tags","count":6}')}}]);
