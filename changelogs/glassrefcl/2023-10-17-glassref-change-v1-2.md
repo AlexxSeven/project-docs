@@ -25,3 +25,4 @@ Glass refraction is a premium only shader.
 
 ## Extra:
 - Updated packaged thry editor version.
+<!-- truncate -->

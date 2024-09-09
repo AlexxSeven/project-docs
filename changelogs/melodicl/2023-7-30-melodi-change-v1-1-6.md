@@ -39,3 +39,4 @@ The changes in this section will affect the look of materials using previous ver
 
 ## Extra:
 - Updated packaged thry editor version.
+<!-- truncate -->

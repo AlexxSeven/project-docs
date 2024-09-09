@@ -1,8 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
+
+const lightCodeTheme = prismThemes.github; //require('prism-react-renderer/themes/github');
+const darkCodeTheme = prismThemes.dracula; //require('prism-react-renderer/index/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -12,6 +14,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://docs.alexxseven.com',
+  
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -75,13 +78,29 @@ const config = {
             showLastUpdateTime: true,
         },
         blog: {
+          //blog folder path and URI path.
           path: 'changelogs',
           routeBasePath: 'changelogs',
+          
+          //General blog config options.
           blogTitle: 'Project changelogs',
           showReadingTime: true,
           postsPerPage: 5,
+
+          //Blog sidebar options.
           blogSidebarTitle: 'All Posts:',
           blogSidebarCount: 'ALL',
+          
+          //Blog automated feed options.
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+
+          //Best practice warnings.
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

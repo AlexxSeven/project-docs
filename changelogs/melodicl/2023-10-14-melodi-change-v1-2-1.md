@@ -1,5 +1,5 @@
 ---
-slug: melodi-change-latest
+slug: melodi-change-v1-2-1
 title: Melodi Unlit & Premium Changelog (v1.2.1)
 authors: alexxseven
 tags: [Shaders, Melodi, Changelogs]

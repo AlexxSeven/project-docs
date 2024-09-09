@@ -51,3 +51,4 @@ The changes in this section will affect the look of materials using previous ver
 - (⭐) Added glow bypass toggle to Trail Mask.
 - (⭐) Added a `Use Main Color` option to `Emissive Adv Parameters > Emissive Alt Color`
 - (⭐) Added a `Blend Env Lights` toggle to Physically lit mode to reflect map lighting on objects. (Thanks to some code from [Kaitlyn](https://github.com/kaitlyndotmoe)!)
+<!-- truncate -->

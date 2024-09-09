@@ -13,3 +13,4 @@ tags: [Shaders, UnlitStandard, Changelogs]
 
 ## Extra:
 - Updated the packaged thry editor version to 2.45.1 as the shader now utilizes features from it.
+<!-- truncate -->
