@@ -6,7 +6,7 @@ tags: [Shaders, Melodi, Changelogs]
 ---
 import ReactPlayer from 'react-player/file'
 
-This is a smol bugfix update to 1.2.0 that was urgently needed, to see the longer list of changes in 1.2.0 check out [this post](/blog/melodi-change-v1-2-0).
+This is a smol bugfix update to 1.2.0 that was urgently needed, to see the longer list of changes in 1.2.0 check out [this post](/changelogs/melodi-change-v1-2-0).
 
 :::note Legend
 
