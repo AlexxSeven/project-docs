@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalexx_sevens_project_docs=self.webpackChunkalexx_sevens_project_docs||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/changelogs","blogTitle":"Project changelogs","authorsListPath":"/changelogs/authors"}')}}]);

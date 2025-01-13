@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalexx_sevens_project_docs=self.webpackChunkalexx_sevens_project_docs||[]).push([[7860],{1451:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/changelogs/page/2","page":2,"postsPerPage":5,"totalPages":2,"totalCount":10,"previousPage":"/changelogs","blogDescription":"Blog","blogTitle":"Project changelogs"}}')}}]);

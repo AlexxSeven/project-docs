@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalexx_sevens_project_docs=self.webpackChunkalexx_sevens_project_docs||[]).push([[1886],{1326:e=>{e.exports=JSON.parse('{"authors":[{"name":"AlexxSeven","title":"Local Potato","url":"https://alexxseven.com/","imageURL":"https://github.com/AlexxSeven.png","key":"alexxseven","page":null,"count":10}]}')}}]);
